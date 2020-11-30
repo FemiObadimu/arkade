@@ -1,0 +1,481 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: Nunito; */
+}
+
+
+.nav-link{
+    color: black !important;
+    padding: 0px 10px !important;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    color:black;
+}
+
+.fa-bars{
+    color:black !important;
+}
+
+
+nav{
+    background: white !important;
+    position: sticky;
+    color:black !important;
+}
+
+.navbar-light .navbar-brand{
+    color:black !important; 
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.dott{
+    color: rgba(0, 0, 255, 0.897);
+    
+}
+
+.top-spc{
+    padding: 30px 0px;
+}
+
+.FirstImage{
+    width: 100%;
+    height: 500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.text1{
+    padding-top: 40px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.text2{
+    padding: 20px 0px;
+    color:rgb(150, 149, 149);
+}
+
+.spc{
+    padding: 30px 0px;
+}
+
+.btn-md{
+    background-color: none;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 81, 255, 0.938);
+    color:  rgba(0, 81, 255, 0.938);
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 15px 20px;
+    
+
+}
+
+.btn-md:hover{
+    background: rgba(0, 81, 255, 0.938);
+    color: white;
+}
+
+.btn-md:active{
+    background: rgba(0, 81, 255, 0.938);
+    color: white;
+}
+
+
+
+.text3 div{
+    display: inline;
+    padding: 0px 20px ;
+}
+/* ---------------about---------- */
+#about{
+    padding: 50px 0px;
+}
+
+.about-number{
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+/* ------------------services---------------- */
+#services{
+    padding: 60px 0px;
+}
+
+
+.service-sec{
+    padding: 30px 0px;
+}
+
+.text4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 81, 255, 0.938);
+}
+
+
+
+.fa-check{
+    padding-right: 15px;
+}
+
+
+.tx{
+    color: rgb(182, 179, 179);
+}
+
+
+.text5{
+    padding-bottom:10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.italics{
+    font-size:20px ;
+    font-weight: 600;
+}
+
+
+
+.top-test-flex{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.top-test-flex div{
+    padding: 20px;
+}
+
+.test-flex-images{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    filter: contrast(150%);
+}
+
+.text6{
+    padding-top:15px ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text7{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.arkade-svg-icons{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    filter: brightness(100%) contrast(170%);
+}
+
+/* --------------------------pricing----------------- */
+
+#pricing{
+    padding: 50px 0px;
+    background-color: #f4f4f4;
+}
+
+.text8{
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text9{
+    color: rgb(182, 179, 179);
+    font-size: 20px;
+   
+}
+
+.box1{
+    padding: 20px 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+}
+
+.package-name{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.package-amount{
+    padding: 10px 0px;
+    color:  rgba(0, 81, 255, 0.938);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.spc1{
+    width: 100%;
+    height: 30px;
+    background-size: cover;
+    background-color: #f4f4f4;
+}
+
+
+.advantage-cont{
+    padding: 30px 0px;
+}
+
+
+.advantage-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.advantage-flex div{
+    padding: 0px 20px;
+}
+
+/* ---------------testimonials------------------ */
+
+#testimonials{
+    padding: 50px 0px ;
+}
+
+.text10{
+    font-size: 20px;
+    font-weight: 600;
+    color:  rgba(0, 81, 255, 0.938);
+    padding: 10px 0px;
+}
+
+.text11{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.carousel{
+    width: 100% !important;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.carousel-item{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.testimonial-images{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    filter:contrast(100%);
+
+}
+
+.carousel-caption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.testimonials-flex{
+    padding: 0px 20px;
+}
+
+.text12{
+    color: black;
+    text-align: start;
+}
+
+.text13{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text14{
+    color: rgb(182, 179, 179);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+/* -----------------news-------------------- */
+#news{
+    padding: 40px 0px;
+    background-color: #f4f4f4;
+}
+
+
+.text15{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.text15a{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(182, 179, 179);
+
+}
+
+
+.box2{
+    margin: 20px 0px;
+    padding: 20px 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+
+}
+
+/* -------------------Contact------------------- */
+#contact{
+    padding: 30px 0px;
+}
+
+
+
+.fills{
+    padding: 20px 0px ;
+}
+
+.enter{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #ccc;
+    padding: 5px 10px;
+    color: white;
+}
+
+input:focus{
+    background-color:  black;
+    color: white;
+}
+
+#error{
+    padding: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+
+
+.write-in:focus{
+    background-color:  black;
+    color: white;
+}
+
+.write-in{
+    border: none;
+    border-radius: 5px;
+    background: #ccc;
+    padding: 20px;
+}
+
+
+
+
+/* -------------------footer--------------- */
+
+
+#footer{
+    padding: 30px 0px;
+    background: #f2f2f2;
+}
+
+.icons a{
+    padding: 0px 10px ;
+}
+
+.text16{
+    padding: 10px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+
+span{
+    padding: 5px 0px !important;
+}
+
+
+.foot-head ,.foot-child{
+    padding: 0px 10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+    .donot{
+        display: none;
+    }
+
+}   
+
+
+
+@media(max-width:767px){
+    .nav-link{
+        color: black !important;
+        padding: 20px 10px !important;
+        font-size: 20px;
+    }
+
+
+    .donot{
+        display: none;
+    }
+
+}   
+
+
